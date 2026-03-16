@@ -222,50 +222,50 @@ This module defines the following variables:
   Boolean indicating whether the SDK provides the DirectX shader compiler CLI
   tool.
 
-``Vulkan_Layer_API_DUMP``
+``Vulkan_Layer_API_DUMP_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `API_DUMP` Vulkan Layer library path.
+  Path to the `api_dump` Vulkan Layer library.
 
-``Vulkan_Layer_CRASH_DIAGNOSTIC``
+``Vulkan_Layer_CRASH_DIAGNOSTIC_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `CRASH_DIAGNOSTIC` Vulkan Layer library path.
+  Path to the `crash_diagnostic` Vulkan Layer library.
 
-``Vulkan_Layer_GFXRECONSTRUCT``
+``Vulkan_Layer_GFXRECONSTRUCT_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `GFXRECONSTRUCT` Vulkan Layer library path.
+  Path to the `gfxreconstruct` Vulkan Layer library.
 
-``Vulkan_Layer_KHRONOS_PROFILES``
+``Vulkan_Layer_KHRONOS_PROFILES_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `KHRONOS_PROFILES` Vulkan Layer library path.
+  Path to the `khronos_profiles` Vulkan Layer library.
 
-``Vulkan_Layer_SHADER_OBJECT``
+``Vulkan_Layer_SHADER_OBJECT_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `SHADER_OBJECT` Vulkan Layer library path.
+  Path to the `khronos_shader_object` Vulkan Layer library.
 
-``Vulkan_Layer_SYNCHRONIZATION2``
+``Vulkan_Layer_SYNCHRONIZATION2_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `SYNCHRONIZATION2` Vulkan Layer library path.
+  Path to the `khronos_synchronization2` Vulkan Layer library.
 
-``Vulkan_Layer_VALIDATION``
+``Vulkan_Layer_VALIDATION_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `VALIDATION` Vulkan Layer library path.
+  Path to the `khronos_validation` Vulkan Layer library.
 
-``Vulkan_Layer_MONITOR``
+``Vulkan_Layer_MONITOR_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `MONITOR` Vulkan Layer library path.
+  Path to the `monitor` Vulkan Layer library.
 
-``Vulkan_Layer_SCREENSHOT``
+``Vulkan_Layer_SCREENSHOT_LIBRARY``
   .. versionadded:: 4.4
 
-  String indicating the `SCREENSHOT` Vulkan Layer library path.
+  Path to the `screenshot` Vulkan Layer library.
 
 Cache Variables
 ^^^^^^^^^^^^^^^
