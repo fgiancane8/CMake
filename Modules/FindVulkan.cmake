@@ -227,90 +227,45 @@ This module defines the following variables:
 
   String indicating the `API_DUMP` Vulkan Layer library path.
 
-``Vulkan_Layer_API_DUMP_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `API_DUMP` Vulkan Layer library was found.
-
 ``Vulkan_Layer_CRASH_DIAGNOSTIC``
   .. versionadded:: 4.4
 
   String indicating the `CRASH_DIAGNOSTIC` Vulkan Layer library path.
-
-``Vulkan_Layer_CRASH_DIAGNOSTIC_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `CRASH_DIAGNOSTIC` Vulkan Layer library was found.
 
 ``Vulkan_Layer_GFXRECONSTRUCT``
   .. versionadded:: 4.4
 
   String indicating the `GFXRECONSTRUCT` Vulkan Layer library path.
 
-``Vulkan_Layer_GFXRECONSTRUCT_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `GFXRECONSTRUCT` Vulkan Layer library was found.
-
 ``Vulkan_Layer_KHRONOS_PROFILES``
   .. versionadded:: 4.4
 
   String indicating the `KHRONOS_PROFILES` Vulkan Layer library path.
-
-``Vulkan_Layer_KHRONOS_PROFILES_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `KHRONOS_PROFILES` Vulkan Layer library was found.
 
 ``Vulkan_Layer_SHADER_OBJECT``
   .. versionadded:: 4.4
 
   String indicating the `SHADER_OBJECT` Vulkan Layer library path.
 
-``Vulkan_Layer_SHADER_OBJECT_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `SHADER_OBJECT` Vulkan Layer library was found.
-
-``Vulkan_Layer_SYNC2``
+``Vulkan_Layer_SYNCHRONIZATION2``
   .. versionadded:: 4.4
 
   String indicating the `SYNCHRONIZATION2` Vulkan Layer library path.
-
-``Vulkan_Layer_SYNC2_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `SYNCHRONIZATION2` Vulkan Layer library was found.
 
 ``Vulkan_Layer_VALIDATION``
   .. versionadded:: 4.4
 
   String indicating the `VALIDATION` Vulkan Layer library path.
 
-``Vulkan_Layer_VALIDATION_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `VALIDATION` Vulkan Layer library was found.
-
 ``Vulkan_Layer_MONITOR``
   .. versionadded:: 4.4
 
   String indicating the `MONITOR` Vulkan Layer library path.
 
-``Vulkan_Layer_MONITOR_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `MONITOR` Vulkan Layer library was found.
-
 ``Vulkan_Layer_SCREENSHOT``
   .. versionadded:: 4.4
 
   String indicating the `SCREENSHOT` Vulkan Layer library path.
-
-``Vulkan_Layer_SCREENSHOT_FOUND``
-  .. versionadded:: 4.4
-
-  Boolean indicating whether the `SCREENSHOT` Vulkan Layer library was found.
 
 Cache Variables
 ^^^^^^^^^^^^^^^
@@ -576,11 +531,6 @@ if (IOS)
       OPTIONAL
     )
     mark_as_advanced(Vulkan_Layer_${LAYER})
-    if(Vulkan_Layer_${LAYER})
-      set(Vulkan_Layer_${LAYER}_FOUND TRUE)
-    else()
-      set(Vulkan_Layer_${LAYER}_FOUND FALSE)
-    endif()
   endforeach()
 endif()
 
